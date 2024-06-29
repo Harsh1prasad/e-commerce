@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.summer-sale{
+    width: 100vw;
+    min-height: 5vh;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#languages{
+    padding: 3px;
+}
+
+.sale{
+    text-transform: capitalize;
+}
+
+.sale a{
+    color: white;
+    font-style: oblique;
+    font-size: larger;
+}
+
+.language select{
+    background-color: white;
+    border-radius: 20%;
+}
+
+.sub-header{
+    margin-top: 1vh;
+    padding: 5px;
+    width: 100vw;
+    height: 5vh;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.line{
+    width: 100vw;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hr{
+    width: 90%;
+    height: 100%;
+    background-color: grey;
+}
+.exclusive{
+    width: auto;
+    display: flex;
+}
+.navbar{
+    width: auto;
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar nav ul li{
+    list-style: none;
+    margin-left: 5vw;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.search{
+    height: 3.5vh;
+    width: 13vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.search-bar {
+    display: none;
+}
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2vh;
+    gap: 3vw;
+}
+
+.like{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.like.liked{
+    color: red;
+}
+
+.cart{
+    font-size: 25px;
+
+}
+
+.sub-heder-two{
+    width: 100vw;
+    height: auto;
+}
+
+.sub-heder-two{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.category{
+    font-size: 25px;
+}
+.category ul li{
+    list-style: none;
+    margin-top: 1vh;
+}
+
+.category ul li a{
+    color: black;
+    text-decoration: none;
+}
+.phone-add{
+    width: 60%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    left: 2vw;
+}
+.offer-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: -5vw;
+    top: 5vh;
+    font-size: 35px;
+}
+.offer a{
+    color: white;
+}
+.flashSale{
+    width: 100vw;
+    height: auto;
+    margin-top: 2vh;
+    height: auto;
+}
+
+.today{
+    margin-left: 4vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 5px;
+}
+.today h2{
+    color: red;
+}
+.redBox{
+    background-color: red;
+    width: 1.5vw;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.sale-timer{
+    margin-left: 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale-name{
+    width: 32vw;
+    height: auto;
+    margin-top: 1.5vh;
+    padding: 0.5vh;
+}
+
+.sale-time{
+    width: 32vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.rig-lef{
+    width: 32vw;
+    height: auto;
+    margin-right: 1vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 3vw;
+    font-size: 25px;
+}
+.left,.right{
+    height: auto;
+    width: auto;
+    background-color:  antiquewhite;
+    border-radius: 50%;
+}
+.days h4{
+    text-align: center;
+}
+.hour h4{
+    text-align: center;
+}
+.minute h4{
+    text-align: center;
+}
+.second h4{
+    text-align: center;
+}
+.day-container{
+    text-align: center;
+}
+.hour-container{
+    text-align: center;
+}
+.minute-container{
+    text-align: center;
+}
+.second-container{
+    text-align: center;
+}
+
+.sale-items{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 0.5vw;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.item{
+    margin: 1.5vh 1vh;
+    height: auto;
+    width: 25rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.five{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.six{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.game{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(231, 228, 228);
+    display: flex;
+    justify-content: space-evenly;
+}
+.game img{
+    padding: 5vh;
+}
+.off{
+    margin-top: 0.5vh;
+    padding: 0.5vh;
+    height: 4vh;
+    width: 3vw;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 20%;
+}
+.hover{
+    display: none;
+}
+.hover:hover{
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.liek-view{
+    margin-top: 0.5vh;
+}
+.like{
+    margin: 1vh 0vh;
+}
+.eye{
+    font-size: 25px;
+    margin: 1vh 0vh;
+}
+.eye a{
+    color: black;
+}
+.product-info{
+    margin: 0 1vh;
+}
+.pro-name{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.pro-price{
+    display: flex;
+    justify-content: start;
+    gap: 1vw;
+    font-size: 25px;
+}
+
+.view-all{
+    height: auto;
+    width: auto;
+    /* background-color: #DB4444; */
+    display: flex;
+    justify-content: center;
+}
+.view-all a  h3{
+    padding: 1vh;
+    color: black;
+    background-color: #DB4444;
+}
+
+.category h3{
+    color: red;
+}
+.browse{
+    width: 100vw;
+    height: auto;
+}
+.browse-head{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
+.browse-head h2{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.electronic{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon{
+    margin-top: 2vh;
+    height: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.mobile:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.computer:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.smartwatch:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.gaming:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.camera:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.headphone:hover{
+    background-color: #DB4444;
+    color: white;
+}
+.best{
+    width:100vw;
+    height: auto;
+    margin-top: 1vh;
+    border: 2px solid black;
+}
+.best-head{
+    display: flex;
+    margin-left: 4vw;
+    justify-content: space-between;
+}
+
+.best-head h2{
+    margin: 0 1svh;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: red;
+}
+.div{
+    display:flex;
+}
+.view-pro{
+    height: 6vh;
+    width: 10vw;
+    margin-right: 3vw;
+    border-radius: 10%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-pro a{
+    color: black;
+    text-decoration: none;
+}
+
+.card{
+    width: 100vw;
+    height: 30vh;
+    border: 2px solid green;
+    display: flex;
+    justify-content: 
+}
+
+.photo{
+    margin: 1vh 1vh;
+   width: 20%; 
+   height: auto;
+   background-image: url(lvbag.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+}
+.like-view2{
+    position: relative;
+    left: 90%;
+}
